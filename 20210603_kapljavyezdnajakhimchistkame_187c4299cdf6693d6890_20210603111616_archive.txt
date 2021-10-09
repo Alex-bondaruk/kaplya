@@ -1,0 +1,1682 @@
+{
+    "created": "2021-06-03 11:16:16",
+    "version_dup": "4.0.0.1",
+    "version_wp": "5.7.2",
+    "version_db": "10.3.8",
+    "version_php": "7.4.13",
+    "version_os": "Linux",
+    "dbInfo": {
+        "buildMode": "PHPCHUNKING",
+        "charSetList": [
+            "utf8mb4",
+            "utf8",
+            "cp1251"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci",
+            "utf8_general_ci",
+            "utf8mb4_unicode_ci",
+            "cp1251_general_ci"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "b163812_newsite",
+        "tablesBaseCount": 198,
+        "tablesFinalCount": 198,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 48403,
+        "tablesSizeOnDisk": 44875776,
+        "tablesList": {
+            "wp_10_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_10_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_11_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_11_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_12_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_12_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_13_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_14_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_15_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_16_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_17_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_18_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_19_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_20_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_21_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_22_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_23_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_24_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_25_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_26_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_27_commentmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_27_comments": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_27_duplicator_packages": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_27_links": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_27_options": {
+                "rows": "471",
+                "size": 573440
+            },
+            "wp_27_postmeta": {
+                "rows": "4,288",
+                "size": 2064384
+            },
+            "wp_27_posts": {
+                "rows": "526",
+                "size": 1687552
+            },
+            "wp_27_term_relationships": {
+                "rows": "73",
+                "size": 32768
+            },
+            "wp_27_term_taxonomy": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_27_termmeta": {
+                "rows": "12",
+                "size": 49152
+            },
+            "wp_27_terms": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_27_wpfm_backup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_27_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_28_commentmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_28_comments": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_28_duplicator_packages": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_28_links": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_28_options": {
+                "rows": "471",
+                "size": 458752
+            },
+            "wp_28_postmeta": {
+                "rows": "4,288",
+                "size": 2064384
+            },
+            "wp_28_posts": {
+                "rows": "525",
+                "size": 1687552
+            },
+            "wp_28_term_relationships": {
+                "rows": "73",
+                "size": 32768
+            },
+            "wp_28_term_taxonomy": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_28_termmeta": {
+                "rows": "12",
+                "size": 49152
+            },
+            "wp_28_terms": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_28_wpfm_backup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_28_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_29_commentmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_29_comments": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_29_duplicator_packages": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_29_links": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_29_options": {
+                "rows": "471",
+                "size": 458752
+            },
+            "wp_29_postmeta": {
+                "rows": "4,288",
+                "size": 2064384
+            },
+            "wp_29_posts": {
+                "rows": "525",
+                "size": 1687552
+            },
+            "wp_29_term_relationships": {
+                "rows": "73",
+                "size": 32768
+            },
+            "wp_29_term_taxonomy": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_29_termmeta": {
+                "rows": "12",
+                "size": 49152
+            },
+            "wp_29_terms": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_29_wpfm_backup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_29_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_2_actionscheduler_actions": {
+                "rows": "2",
+                "size": 131072
+            },
+            "wp_2_actionscheduler_claims": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_actionscheduler_groups": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_actionscheduler_logs": {
+                "rows": "6",
+                "size": 49152
+            },
+            "wp_2_duplicator_packages": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_wc_admin_note_actions": {
+                "rows": "6",
+                "size": 32768
+            },
+            "wp_2_wc_admin_notes": {
+                "rows": "5",
+                "size": 16384
+            },
+            "wp_2_wc_category_lookup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_2_wc_customer_lookup": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_wc_download_log": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_wc_order_coupon_lookup": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_wc_order_product_lookup": {
+                "rows": "0",
+                "size": 81920
+            },
+            "wp_2_wc_order_stats": {
+                "rows": "0",
+                "size": 65536
+            },
+            "wp_2_wc_order_tax_lookup": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_wc_product_meta_lookup": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_2_wc_tax_rate_classes": {
+                "rows": "2",
+                "size": 32768
+            },
+            "wp_2_wc_webhooks": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_woocommerce_api_keys": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_woocommerce_attribute_taxonomies": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_woocommerce_downloadable_product_permissions": {
+                "rows": "0",
+                "size": 81920
+            },
+            "wp_2_woocommerce_log": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_woocommerce_order_itemmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_woocommerce_order_items": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_woocommerce_payment_tokenmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_woocommerce_payment_tokens": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_woocommerce_sessions": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_2_woocommerce_shipping_zone_locations": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_woocommerce_shipping_zone_methods": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_2_woocommerce_shipping_zones": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_2_woocommerce_tax_rate_locations": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_2_woocommerce_tax_rates": {
+                "rows": "0",
+                "size": 81920
+            },
+            "wp_2_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_30_commentmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_30_comments": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_30_duplicator_packages": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_30_links": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_30_options": {
+                "rows": "471",
+                "size": 573440
+            },
+            "wp_30_postmeta": {
+                "rows": "4,288",
+                "size": 2064384
+            },
+            "wp_30_posts": {
+                "rows": "525",
+                "size": 1687552
+            },
+            "wp_30_term_relationships": {
+                "rows": "73",
+                "size": 32768
+            },
+            "wp_30_term_taxonomy": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_30_termmeta": {
+                "rows": "12",
+                "size": 49152
+            },
+            "wp_30_terms": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_30_wpfm_backup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_30_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_31_commentmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_31_comments": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_31_duplicator_packages": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_31_links": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_31_options": {
+                "rows": "471",
+                "size": 458752
+            },
+            "wp_31_postmeta": {
+                "rows": "4,288",
+                "size": 2064384
+            },
+            "wp_31_posts": {
+                "rows": "525",
+                "size": 1687552
+            },
+            "wp_31_term_relationships": {
+                "rows": "73",
+                "size": 32768
+            },
+            "wp_31_term_taxonomy": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_31_termmeta": {
+                "rows": "12",
+                "size": 49152
+            },
+            "wp_31_terms": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_31_wpfm_backup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_31_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_32_commentmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_32_comments": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_32_duplicator_packages": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_32_links": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_32_options": {
+                "rows": "471",
+                "size": 458752
+            },
+            "wp_32_postmeta": {
+                "rows": "4,288",
+                "size": 2064384
+            },
+            "wp_32_posts": {
+                "rows": "525",
+                "size": 1687552
+            },
+            "wp_32_term_relationships": {
+                "rows": "73",
+                "size": 32768
+            },
+            "wp_32_term_taxonomy": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_32_termmeta": {
+                "rows": "12",
+                "size": 49152
+            },
+            "wp_32_terms": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_32_wpfm_backup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_32_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_3_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_4_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_5_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_6_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_6_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_7_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_7_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_8_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_8_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_9_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_9_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp__3wp_broadcast_broadcastdata": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_actionscheduler_actions": {
+                "rows": "2",
+                "size": 131072
+            },
+            "wp_actionscheduler_claims": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "rows": "6",
+                "size": 49152
+            },
+            "wp_blogmeta": {
+                "rows": "14",
+                "size": 49152
+            },
+            "wp_blogs": {
+                "rows": "7",
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_comments": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_duplicator_pro_entities": {
+                "rows": "5",
+                "size": 32768
+            },
+            "wp_duplicator_pro_packages": {
+                "rows": "0",
+                "size": 131072
+            },
+            "wp_links": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_options": {
+                "rows": "495",
+                "size": 1277952
+            },
+            "wp_postmeta": {
+                "rows": "13,744",
+                "size": 4718592
+            },
+            "wp_posts": {
+                "rows": "990",
+                "size": 6012928
+            },
+            "wp_registration_log": {
+                "rows": "31",
+                "size": 32768
+            },
+            "wp_signups": {
+                "rows": "0",
+                "size": 81920
+            },
+            "wp_site": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_sitemeta": {
+                "rows": "85",
+                "size": 98304
+            },
+            "wp_term_relationships": {
+                "rows": "129",
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_termmeta": {
+                "rows": "32",
+                "size": 49152
+            },
+            "wp_terms": {
+                "rows": "33",
+                "size": 49152
+            },
+            "wp_toolset_post_guid_id": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_usermeta": {
+                "rows": "150",
+                "size": 49152
+            },
+            "wp_users": {
+                "rows": "2",
+                "size": 65536
+            },
+            "wp_wc_admin_note_actions": {
+                "rows": "6",
+                "size": 32768
+            },
+            "wp_wc_admin_notes": {
+                "rows": "5",
+                "size": 16384
+            },
+            "wp_wc_category_lookup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_wc_order_coupon_lookup": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "rows": "0",
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "rows": "0",
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_wc_product_meta_lookup": {
+                "rows": "0",
+                "size": 114688
+            },
+            "wp_wc_tax_rate_classes": {
+                "rows": "2",
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_wmcc_relationships": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_woocommerce_api_keys": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "rows": "0",
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "rows": "0",
+                "size": 32768
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zones": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "rows": "0",
+                "size": 49152
+            },
+            "wp_woocommerce_tax_rates": {
+                "rows": "0",
+                "size": 81920
+            },
+            "wp_word_replacer": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_wpfm_backup": {
+                "rows": "0",
+                "size": 16384
+            },
+            "wp_wpmm_subscribers": {
+                "rows": "0",
+                "size": 16384
+            }
+        },
+        "varLowerCaseTables": "0",
+        "version": "10.3.8",
+        "versionComment": "MariaDB Server",
+        "tableWiseRowCounts": {
+            "wp_10_toolset_post_guid_id": "0",
+            "wp_10_wpmm_subscribers": "0",
+            "wp_11_toolset_post_guid_id": "0",
+            "wp_11_wpmm_subscribers": "0",
+            "wp_12_toolset_post_guid_id": "0",
+            "wp_12_wpmm_subscribers": "0",
+            "wp_13_wpmm_subscribers": "0",
+            "wp_14_wpmm_subscribers": "0",
+            "wp_15_wpmm_subscribers": "0",
+            "wp_16_wpmm_subscribers": "0",
+            "wp_17_wpmm_subscribers": "0",
+            "wp_18_wpmm_subscribers": "0",
+            "wp_19_wpmm_subscribers": "0",
+            "wp_20_wpmm_subscribers": "0",
+            "wp_21_wpmm_subscribers": "0",
+            "wp_22_wpmm_subscribers": "0",
+            "wp_23_wpmm_subscribers": "0",
+            "wp_24_wpmm_subscribers": "0",
+            "wp_25_wpmm_subscribers": "0",
+            "wp_26_wpmm_subscribers": "0",
+            "wp_27_commentmeta": "0",
+            "wp_27_comments": "0",
+            "wp_27_duplicator_packages": "0",
+            "wp_27_links": "0",
+            "wp_27_options": "482",
+            "wp_27_postmeta": "4475",
+            "wp_27_posts": "541",
+            "wp_27_term_relationships": "72",
+            "wp_27_term_taxonomy": "33",
+            "wp_27_termmeta": "12",
+            "wp_27_terms": "33",
+            "wp_27_wpfm_backup": "0",
+            "wp_27_wpmm_subscribers": "0",
+            "wp_28_commentmeta": "0",
+            "wp_28_comments": "0",
+            "wp_28_duplicator_packages": "0",
+            "wp_28_links": "0",
+            "wp_28_options": "482",
+            "wp_28_postmeta": "4475",
+            "wp_28_posts": "541",
+            "wp_28_term_relationships": "72",
+            "wp_28_term_taxonomy": "33",
+            "wp_28_termmeta": "12",
+            "wp_28_terms": "33",
+            "wp_28_wpfm_backup": "0",
+            "wp_28_wpmm_subscribers": "0",
+            "wp_29_commentmeta": "0",
+            "wp_29_comments": "0",
+            "wp_29_duplicator_packages": "0",
+            "wp_29_links": "0",
+            "wp_29_options": "482",
+            "wp_29_postmeta": "4475",
+            "wp_29_posts": "541",
+            "wp_29_term_relationships": "72",
+            "wp_29_term_taxonomy": "33",
+            "wp_29_termmeta": "12",
+            "wp_29_terms": "33",
+            "wp_29_wpfm_backup": "0",
+            "wp_29_wpmm_subscribers": "0",
+            "wp_2_actionscheduler_actions": "2",
+            "wp_2_actionscheduler_claims": "0",
+            "wp_2_actionscheduler_groups": "1",
+            "wp_2_actionscheduler_logs": "6",
+            "wp_2_duplicator_packages": "1",
+            "wp_2_toolset_post_guid_id": "0",
+            "wp_2_wc_admin_note_actions": "6",
+            "wp_2_wc_admin_notes": "5",
+            "wp_2_wc_category_lookup": "1",
+            "wp_2_wc_customer_lookup": "0",
+            "wp_2_wc_download_log": "0",
+            "wp_2_wc_order_coupon_lookup": "0",
+            "wp_2_wc_order_product_lookup": "0",
+            "wp_2_wc_order_stats": "0",
+            "wp_2_wc_order_tax_lookup": "0",
+            "wp_2_wc_product_meta_lookup": "0",
+            "wp_2_wc_tax_rate_classes": "2",
+            "wp_2_wc_webhooks": "0",
+            "wp_2_woocommerce_api_keys": "0",
+            "wp_2_woocommerce_attribute_taxonomies": "0",
+            "wp_2_woocommerce_downloadable_product_permissions": "0",
+            "wp_2_woocommerce_log": "0",
+            "wp_2_woocommerce_order_itemmeta": "0",
+            "wp_2_woocommerce_order_items": "0",
+            "wp_2_woocommerce_payment_tokenmeta": "0",
+            "wp_2_woocommerce_payment_tokens": "0",
+            "wp_2_woocommerce_sessions": "1",
+            "wp_2_woocommerce_shipping_zone_locations": "0",
+            "wp_2_woocommerce_shipping_zone_methods": "0",
+            "wp_2_woocommerce_shipping_zones": "0",
+            "wp_2_woocommerce_tax_rate_locations": "0",
+            "wp_2_woocommerce_tax_rates": "0",
+            "wp_2_wpmm_subscribers": "0",
+            "wp_30_commentmeta": "0",
+            "wp_30_comments": "0",
+            "wp_30_duplicator_packages": "0",
+            "wp_30_links": "0",
+            "wp_30_options": "482",
+            "wp_30_postmeta": "4475",
+            "wp_30_posts": "541",
+            "wp_30_term_relationships": "72",
+            "wp_30_term_taxonomy": "33",
+            "wp_30_termmeta": "12",
+            "wp_30_terms": "33",
+            "wp_30_wpfm_backup": "0",
+            "wp_30_wpmm_subscribers": "0",
+            "wp_31_commentmeta": "0",
+            "wp_31_comments": "0",
+            "wp_31_duplicator_packages": "0",
+            "wp_31_links": "0",
+            "wp_31_options": "482",
+            "wp_31_postmeta": "4475",
+            "wp_31_posts": "541",
+            "wp_31_term_relationships": "72",
+            "wp_31_term_taxonomy": "33",
+            "wp_31_termmeta": "12",
+            "wp_31_terms": "33",
+            "wp_31_wpfm_backup": "0",
+            "wp_31_wpmm_subscribers": "0",
+            "wp_32_commentmeta": "0",
+            "wp_32_comments": "0",
+            "wp_32_duplicator_packages": "0",
+            "wp_32_links": "0",
+            "wp_32_options": "482",
+            "wp_32_postmeta": "4475",
+            "wp_32_posts": "541",
+            "wp_32_term_relationships": "72",
+            "wp_32_term_taxonomy": "33",
+            "wp_32_termmeta": "12",
+            "wp_32_terms": "33",
+            "wp_32_wpfm_backup": "0",
+            "wp_32_wpmm_subscribers": "0",
+            "wp_3_wpmm_subscribers": "0",
+            "wp_4_wpmm_subscribers": "0",
+            "wp_5_wpmm_subscribers": "0",
+            "wp_6_toolset_post_guid_id": "0",
+            "wp_6_wpmm_subscribers": "0",
+            "wp_7_toolset_post_guid_id": "0",
+            "wp_7_wpmm_subscribers": "0",
+            "wp_8_toolset_post_guid_id": "0",
+            "wp_8_wpmm_subscribers": "0",
+            "wp_9_toolset_post_guid_id": "0",
+            "wp_9_wpmm_subscribers": "0",
+            "wp__3wp_broadcast_broadcastdata": "0",
+            "wp_actionscheduler_actions": "2",
+            "wp_actionscheduler_claims": "0",
+            "wp_actionscheduler_groups": "1",
+            "wp_actionscheduler_logs": "6",
+            "wp_blogmeta": "14",
+            "wp_blogs": "7",
+            "wp_commentmeta": "0",
+            "wp_comments": "0",
+            "wp_duplicator_pro_entities": "5",
+            "wp_duplicator_pro_packages": "1",
+            "wp_links": "0",
+            "wp_options": "499",
+            "wp_postmeta": "21535",
+            "wp_posts": "1087",
+            "wp_registration_log": "31",
+            "wp_signups": "1",
+            "wp_site": "1",
+            "wp_sitemeta": "86",
+            "wp_term_relationships": "114",
+            "wp_term_taxonomy": "33",
+            "wp_termmeta": "34",
+            "wp_terms": "33",
+            "wp_toolset_post_guid_id": "1",
+            "wp_usermeta": "156",
+            "wp_users": "2",
+            "wp_wc_admin_note_actions": "6",
+            "wp_wc_admin_notes": "5",
+            "wp_wc_category_lookup": "1",
+            "wp_wc_customer_lookup": "0",
+            "wp_wc_download_log": "0",
+            "wp_wc_order_coupon_lookup": "0",
+            "wp_wc_order_product_lookup": "0",
+            "wp_wc_order_stats": "0",
+            "wp_wc_order_tax_lookup": "0",
+            "wp_wc_product_meta_lookup": "0",
+            "wp_wc_tax_rate_classes": "2",
+            "wp_wc_webhooks": "0",
+            "wp_wmcc_relationships": "0",
+            "wp_woocommerce_api_keys": "0",
+            "wp_woocommerce_attribute_taxonomies": "0",
+            "wp_woocommerce_downloadable_product_permissions": "0",
+            "wp_woocommerce_log": "0",
+            "wp_woocommerce_order_itemmeta": "0",
+            "wp_woocommerce_order_items": "0",
+            "wp_woocommerce_payment_tokenmeta": "0",
+            "wp_woocommerce_payment_tokens": "0",
+            "wp_woocommerce_sessions": "1",
+            "wp_woocommerce_shipping_zone_locations": "0",
+            "wp_woocommerce_shipping_zone_methods": "0",
+            "wp_woocommerce_shipping_zones": "0",
+            "wp_woocommerce_tax_rate_locations": "0",
+            "wp_woocommerce_tax_rates": "0",
+            "wp_word_replacer": "1",
+            "wp_wpfm_backup": "0",
+            "wp_wpmm_subscribers": "0"
+        },
+        "viewCount": 0,
+        "procCount": 0
+    },
+    "opts_delete": "[\"duplicator_pro_ui_view_state\",\"duplicator_pro_package_active\",\"duplicator_pro_settings\"]",
+    "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438",
+    "wproot": "\/home\/u163812\/6567.ru\/www",
+    "wplogin_url": "https:\/\/6567.ru\/wp-login.php",
+    "relative_content_dir": "wp-content",
+    "relative_plugins_dir": "wp-content\/plugins",
+    "relative_theme_dirs": [
+        "wp-content\/themes"
+    ],
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "",
+    "skipscan": 0,
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cache_wp": null,
+    "cache_path": null,
+    "cpnl_dbname": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "cpnl_connect": null,
+    "cpnl_dbaction": null,
+    "cpnl_dbhost": null,
+    "cpnl_dbuser": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 2,
+    "mu_generation": 2,
+    "subsites": [
+        {
+            "id": "1",
+            "domain": "6567.ru",
+            "path": "\/",
+            "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438",
+            "blog_prefix": "wp_"
+        },
+        {
+            "id": "27",
+            "domain": "6567.ru",
+            "path": "\/novosibirsk\/",
+            "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438 \u0432 \u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a\u0435",
+            "blog_prefix": "wp_27_"
+        },
+        {
+            "id": "28",
+            "domain": "6567.ru",
+            "path": "\/ufa\/",
+            "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438 \u0432 \u0423\u0444\u0435",
+            "blog_prefix": "wp_28_"
+        },
+        {
+            "id": "29",
+            "domain": "6567.ru",
+            "path": "\/arkhangelsk\/",
+            "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438 \u0432 \u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a\u0435",
+            "blog_prefix": "wp_29_"
+        },
+        {
+            "id": "30",
+            "domain": "6567.ru",
+            "path": "\/angarsk\/",
+            "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438 \u0432 \u0410\u043d\u0433\u0430\u0440\u0441\u043a\u0435",
+            "blog_prefix": "wp_30_"
+        },
+        {
+            "id": "31",
+            "domain": "6567.ru",
+            "path": "\/magnitogorsk\/",
+            "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438 \u0432 \u041c\u0430\u0433\u043d\u0438\u0442\u043e\u0433\u043e\u0440\u0441\u043a\u0435",
+            "blog_prefix": "wp_31_"
+        },
+        {
+            "id": "32",
+            "domain": "6567.ru",
+            "path": "\/omsk\/",
+            "blogname": "\u041a\u0430\u043f\u043b\u044f | \u0412\u044b\u0435\u0437\u0434\u043d\u0430\u044f \u0445\u0438\u043c\u0447\u0438\u0441\u0442\u043a\u0430 \u043c\u0435\u0431\u0435\u043b\u0438 \u0432 \u041e\u043c\u0441\u043a\u0435",
+            "blog_prefix": "wp_32_"
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": -1,
+    "brand": {
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator Pro",
+        "enabled": false,
+        "style": []
+    },
+    "wp_content_dir_base_name": "",
+    "packInfo": {
+        "packageId": 3,
+        "packageName": "20210603_kapljavyezdnajakhimchistkame",
+        "packageHash": "187c429-03111616",
+        "secondaryHash": "e8c6b0f-03111616"
+    },
+    "fileInfo": {
+        "dirCount": 1616,
+        "fileCount": 18083,
+        "size": 711549642
+    },
+    "wpInfo": {
+        "version": "5.7.2",
+        "is_multisite": true,
+        "network_id": 1,
+        "targetRoot": "\/home\/u163812\/6567.ru\/www",
+        "targetPaths": [
+            "\/home\/u163812\/6567.ru\/www"
+        ],
+        "adminUsers": [
+            {
+                "id": "1",
+                "user_login": "admin"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/u163812\/6567.ru\/www\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": ",jI%\/qaWhi{v&<ZW\/~kX&hk)E}V!YMwo7*lyh=fg>-zh^` +V&Sf|r[sZw,7i!,i",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "[Z.FXWk.CQ]x{}m>b.)cHS1raIun$Q%tg=D3<}nsfqd#YJa;I4WS!0>:LH_E,nbF",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "{Cq9cXBgtmRh7mYm6^doG!EgfxJ@~6p>2ZSM@HE-Hp|ogBh#7)y*vHZ~+h(43s1q",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "gip:_va9UiY _~9%*{=S79<xy?9[)K55JN,;~;|{OhS<D-[;J\/KsPp+x]Y8=!fVr",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "A`[$-&}u6E%Yh_p8b#dehQL@e)q@,p$2`3EbYePK~ H#4hULsIgWP4jquD{5^jx-",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "Gc>r@1T[wFQ-5ZMn`QuS|szk+s!{Zia)<+rJSS0BW@2>t ;a\/D)^^3;Tc2l-^spI",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "WG^iC[>YA(A{XR} GyM-~%Zn@;}Q#X_C4=p$mKhsTqXw<dcC$A\/f*{wos<);C2A)",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "R]QXSF}51MF;xnh=I%)WA[SrM`=MO~QxC-s1}hj*sNe.S#In3O8F<_kxggW%~2fA",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/u163812\/6567.ru\/www\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/6567.ru\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/u163812\/6567.ru\/www\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/6567.ru\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "DOMAIN_CURRENT_SITE": {
+                    "value": "6567.ru",
+                    "inWpConfig": true
+                },
+                "PATH_CURRENT_SITE": {
+                    "value": "\/",
+                    "inWpConfig": true
+                },
+                "SITE_ID_CURRENT_SITE": {
+                    "value": 1,
+                    "inWpConfig": true
+                },
+                "BLOG_ID_CURRENT_SITE": {
+                    "value": 1,
+                    "inWpConfig": true
+                },
+                "SUBDOMAIN_INSTALL": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "VHOST": {
+                    "value": "no",
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "64M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/u163812\/6567.ru\/www\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/u163812\/6567.ru\/www\/wp-content\/themes\/him",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/u163812\/6567.ru\/www\/wp-content\/themes\/him",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/u163812\/6567.ru\/www\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/6567.ru\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/6567.ru",
+                "homeUrl": "https:\/\/6567.ru",
+                "contentUrl": "https:\/\/6567.ru\/wp-content",
+                "uploadBaseUrl": "https:\/\/6567.ru\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/6567.ru\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/6567.ru\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/6567.ru\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/u163812\/6567.ru\/www",
+                    "abs": "\/home\/u163812\/6567.ru\/www",
+                    "wpconfig": "\/home\/u163812\/6567.ru\/www",
+                    "wpcontent": "\/home\/u163812\/6567.ru\/www\/wp-content",
+                    "uploads": "\/home\/u163812\/6567.ru\/www\/wp-content\/uploads",
+                    "plugins": "\/home\/u163812\/6567.ru\/www\/wp-content\/plugins",
+                    "muplugins": "\/home\/u163812\/6567.ru\/www\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u163812\/6567.ru\/www\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/u163812\/6567.ru\/www",
+                    "abs": "\/home\/u163812\/6567.ru\/www",
+                    "wpconfig": "\/home\/u163812\/6567.ru\/www",
+                    "wpcontent": "\/home\/u163812\/6567.ru\/www\/wp-content",
+                    "uploads": "\/home\/u163812\/6567.ru\/www\/wp-content\/uploads",
+                    "plugins": "\/home\/u163812\/6567.ru\/www\/wp-content\/plugins",
+                    "muplugins": "\/home\/u163812\/6567.ru\/www\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u163812\/6567.ru\/www\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-custom-fields\/acf.php": {
+                "slug": "advanced-custom-fields\/acf.php",
+                "name": "Advanced Custom Fields PRO",
+                "version": "99995.7.13",
+                "pluginURI": "https:\/\/www.advancedcustomfields.com\/",
+                "author": "Elliot Condon",
+                "authorURI": "http:\/\/www.elliotcondon.com\/",
+                "description": "Customize WordPress with powerful, professional and intuitive fields.",
+                "title": "Advanced Custom Fields PRO",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "tinymce-advanced\/tinymce-advanced.php": {
+                "slug": "tinymce-advanced\/tinymce-advanced.php",
+                "name": "Advanced Editor Tools (previously TinyMCE Advanced)",
+                "version": "5.6.0",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/tinymce-advanced\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/automattic.com",
+                "description": "Extends and enhances the block editor (Gutenberg) and the classic editor (TinyMCE).",
+                "title": "Advanced Editor Tools (previously TinyMCE Advanced)",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "axp-cyrtolat\/axp-cyrtolat.php": {
+                "slug": "axp-cyrtolat\/axp-cyrtolat.php",
+                "name": "AXP Cyrillic to Latin",
+                "version": "1.0.0",
+                "pluginURI": "https:\/\/github.com\/axp-dev\/axp-cyrtolat",
+                "author": "Alexander Pushkarev <axp-dev@yandex.com>",
+                "authorURI": "https:\/\/github.com\/axp-dev",
+                "description": "Converts Cyrillic characters in post slugs to Latin characters",
+                "title": "AXP Cyrillic to Latin",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "better-search-replace\/better-search-replace.php": {
+                "slug": "better-search-replace\/better-search-replace.php",
+                "name": "Better Search Replace",
+                "version": "1.3.4",
+                "pluginURI": "https:\/\/bettersearchreplace.com",
+                "author": "Delicious Brains",
+                "authorURI": "https:\/\/bettersearchreplace.com",
+                "description": "A small plugin for running a search\/replace on your WordPress database.",
+                "title": "Better Search Replace",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "breadcrumb-navxt\/breadcrumb-navxt.php": {
+                "slug": "breadcrumb-navxt\/breadcrumb-navxt.php",
+                "name": "Breadcrumb NavXT",
+                "version": "6.6.0",
+                "pluginURI": "http:\/\/mtekk.us\/code\/breadcrumb-navxt\/",
+                "author": "John Havlik",
+                "authorURI": "http:\/\/mtekk.us\/",
+                "description": "Adds a breadcrumb navigation showing the visitor&#39;s path to their current location. For details on how to use this plugin visit <a href=\"http:\/\/mtekk.us\/code\/breadcrumb-navxt\/\">Breadcrumb NavXT<\/a>.",
+                "title": "Breadcrumb NavXT",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "threewp-broadcast\/ThreeWP_Broadcast.php": {
+                "slug": "threewp-broadcast\/ThreeWP_Broadcast.php",
+                "name": "Broadcast",
+                "version": "47.06",
+                "pluginURI": "https:\/\/broadcast.plainviewplugins.com\/",
+                "author": "edward_plainview",
+                "authorURI": "https:\/\/plainviewplugins.com",
+                "description": "Broadcast \/ multipost posts, with attachments, custom fields and taxonomies to other blogs in the network.",
+                "title": "Broadcast",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "categories-images\/categories-images.php": {
+                "slug": "categories-images\/categories-images.php",
+                "name": "Categories Images",
+                "version": "3.0.1",
+                "pluginURI": "http:\/\/zahlan.net\/blog\/categories-images\/",
+                "author": "Muhammad El Zahlan",
+                "authorURI": "http:\/\/zahlan.net\/",
+                "description": "Categories Images Plugin allow you to add an image to category or any custom term.",
+                "title": "Categories Images",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.4.1",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator-pro\/duplicator-pro.php": {
+                "slug": "duplicator-pro\/duplicator-pro.php",
+                "name": "Duplicator Pro",
+                "version": "4.0.0.1",
+                "pluginURI": "http:\/\/snapcreek.com\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/snapcreek.com",
+                "description": "Create, schedule and transfer a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator Pro",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "intuitive-custom-post-order\/intuitive-custom-post-order.php": {
+                "slug": "intuitive-custom-post-order\/intuitive-custom-post-order.php",
+                "name": "Intuitive Custom Post Order",
+                "version": "3.1.3",
+                "pluginURI": "http:\/\/hijiriworld.com\/web\/plugins\/intuitive-custom-post-order\/",
+                "author": "hijiri",
+                "authorURI": "http:\/\/hijiriworld.com\/web\/",
+                "description": "Intuitively, Order Items( Posts, Pages, ,Custom Post Types, Custom Taxonomies, Sites ) using a Drag and Drop Sortable JavaScript.",
+                "title": "Intuitive Custom Post Order",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "multisite-clone-duplicator-1.5.3\/multisite-clone-duplicator.php": {
+                "slug": "multisite-clone-duplicator-1.5.3\/multisite-clone-duplicator.php",
+                "name": "MultiSite Clone Duplicator",
+                "version": "1.5.3",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/multisite-clone-duplicator\/",
+                "author": "Julien OGER, Pierre DARGHAM, David DAUGREILH, GLOBALIS media systems",
+                "authorURI": "https:\/\/github.com\/globalis-ms\/multisite-clone-duplicator",
+                "description": "Clones an existing site into a new one in a multisite installation : copies all the posts, settings and files",
+                "title": "MultiSite Clone Duplicator",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "multisite-shared-media\/multisite-shared-media.php": {
+                "slug": "multisite-shared-media\/multisite-shared-media.php",
+                "name": "Multisite Shared Media",
+                "version": "1.3.1",
+                "pluginURI": "https:\/\/codecanyon.net\/item\/wordpress-multisite-shared-media\/19306250",
+                "author": "Aikadesign Oy",
+                "authorURI": "https:\/\/www.aikadesign.fi\/",
+                "description": "Synchronise uploaded media to other network sites instantly without duplicating the file itself. Save disk space and publish faster.",
+                "title": "Multisite Shared Media",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "regenerate-thumbnails\/regenerate-thumbnails.php": {
+                "slug": "regenerate-thumbnails\/regenerate-thumbnails.php",
+                "name": "Regenerate Thumbnails",
+                "version": "3.1.5",
+                "pluginURI": "https:\/\/alex.blog\/wordpress-plugins\/regenerate-thumbnails\/",
+                "author": "Alex Mills (Viper007Bond)",
+                "authorURI": "https:\/\/alex.blog\/",
+                "description": "Regenerate the thumbnails for one or more of your image uploads. Useful when changing their sizes or your theme.",
+                "title": "Regenerate Thumbnails",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "remove-category-url\/remove-category-url.php": {
+                "slug": "remove-category-url\/remove-category-url.php",
+                "name": "Remove Category URL",
+                "version": "1.1.6",
+                "pluginURI": "http:\/\/valeriosouza.com.br\/portfolio\/remove-category-url\/",
+                "author": "Valerio Souza, \u0421reativemotion",
+                "authorURI": "http:\/\/valeriosouza.com.br\/",
+                "description": "This plugin removes '\/category' from your category permalinks. (e.g. `\/category\/my-category\/` to `\/my-category\/`)",
+                "title": "Remove Category URL",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "safe-svg\/safe-svg.php": {
+                "slug": "safe-svg\/safe-svg.php",
+                "name": "Safe SVG",
+                "version": "1.9.9",
+                "pluginURI": "https:\/\/wpsvg.com\/",
+                "author": "Daryll Doyle",
+                "authorURI": "http:\/\/enshrined.co.uk",
+                "description": "Allows SVG uploads into WordPress and sanitizes the SVG before saving it",
+                "title": "Safe SVG",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "types\/wpcf.php": {
+                "slug": "types\/wpcf.php",
+                "name": "Toolset Types",
+                "version": "2.3.5",
+                "pluginURI": "http:\/\/wordpress.org\/extend\/plugins\/types\/",
+                "author": "OnTheGoSystems",
+                "authorURI": "http:\/\/www.onthegosystems.com",
+                "description": "Toolset Types defines custom content in WordPress. Easily create custom post types, fields and taxonomy and connect everything together.",
+                "title": "Toolset Types",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-multisite-content-copier\/wp-multisite-content-copier.php": {
+                "slug": "wp-multisite-content-copier\/wp-multisite-content-copier.php",
+                "name": "WordPress Multisite Content Copier\/Updater",
+                "version": "1.4.0",
+                "pluginURI": "",
+                "author": "Obtain Infotech",
+                "authorURI": "http:\/\/www.obtaininfotech.com\/",
+                "description": "Copy\/Update posts and pages from one site (blog) to the other sites (blogs) in your WordPress Multisite Network.",
+                "title": "WordPress Multisite Content Copier\/Updater",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "word-replacer\/word-replacer.php": {
+                "slug": "word-replacer\/word-replacer.php",
+                "name": "Word Replacer",
+                "version": "0.4",
+                "pluginURI": "http:\/\/takien.com\/587\/word-replacer-wordpress-plugin.php",
+                "author": "Takien",
+                "authorURI": "http:\/\/takien.com\/",
+                "description": "Replace word in post, page, title or comment and bbPress.",
+                "title": "Word Replacer",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-maintenance-mode\/wp-maintenance-mode.php": {
+                "slug": "wp-maintenance-mode\/wp-maintenance-mode.php",
+                "name": "WP Maintenance Mode",
+                "version": "2.4.0",
+                "pluginURI": "https:\/\/designmodo.com\/",
+                "author": "Designmodo",
+                "authorURI": "https:\/\/designmodo.com\/",
+                "description": "Adds a splash page to your site that lets visitors know your site is down for maintenance. It's perfect for a coming soon page.",
+                "title": "WP Maintenance Mode",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "simple-taxonomy-ordering\/yikes-custom-taxonomy-order.php": {
+                "slug": "simple-taxonomy-ordering\/yikes-custom-taxonomy-order.php",
+                "name": "YIKES Simple Taxonomy Ordering",
+                "version": "2.3.3",
+                "pluginURI": "http:\/\/www.yikesinc.com",
+                "author": "YIKES, Inc.",
+                "authorURI": "http:\/\/www.yikesinc.com",
+                "description": "Custom drag & drop taxonomy ordering.",
+                "title": "YIKES Simple Taxonomy Ordering",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicate-post\/duplicate-post.php": {
+                "slug": "duplicate-post\/duplicate-post.php",
+                "name": "Yoast Duplicate Post",
+                "version": "4.1.2",
+                "pluginURI": "https:\/\/yoast.com\/wordpress\/plugins\/duplicate-post\/",
+                "author": "Enrico Battocchi & Team Yoast",
+                "authorURI": "https:\/\/yoast.com",
+                "description": "The go-to tool for cloning posts and pages, including the powerful Rewrite & Republish feature.",
+                "title": "Yoast Duplicate Post",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            }
+        }
+    },
+    "installer_base_name": "installer.php",
+    "installer_backup_name": "20210603_kapljavyezdnajakhimchistkame_187c4299cdf6693d6890_20210603111616_installer-backup.php",
+    "package_name": "20210603_kapljavyezdnajakhimchistkame_187c4299cdf6693d6890_20210603111616_archive.zip",
+    "package_hash": "187c429-03111616",
+    "package_notes": "",
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "overwriteInstallerParams": []
+}

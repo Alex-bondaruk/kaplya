@@ -1,0 +1,112 @@
+<?php
+/**
+ * Основные параметры WordPress.
+ *
+ * Скрипт для создания wp-config.php использует этот файл в процессе
+ * установки. Необязательно использовать веб-интерфейс, можно
+ * скопировать файл в "wp-config.php" и заполнить значения вручную.
+ *
+ * Этот файл содержит следующие параметры:
+ *
+ * * Настройки MySQL
+ * * Секретные ключи
+ * * Префикс таблиц базы данных
+ * * ABSPATH
+ *
+ * @link https://codex.wordpress.org/Editing_wp-config.php
+ *
+ * @package WordPress
+ */
+
+/*-- ADDITIONAL --*/
+
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define( 'DOMAIN_CURRENT_SITE', '6567.ru' );
+define( 'PATH_CURRENT_SITE', '/' );
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
+// ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
+/** Имя базы данных для WordPress */
+define( 'DB_NAME', '' );
+
+
+/** Имя пользователя MySQL */
+define( 'DB_USER', '' );
+
+
+/** Пароль к базе данных MySQL */
+define( 'DB_PASSWORD', '' );
+
+
+/** Имя сервера MySQL */
+define( 'DB_HOST', '' );
+
+
+/** Кодировка базы данных для создания таблиц. */
+define( 'DB_CHARSET', 'utf8mb4' );
+
+
+/** Схема сопоставления. Не меняйте, если не уверены. */
+define( 'DB_COLLATE', '' );
+
+/**#@+
+ * Уникальные ключи и соли для аутентификации.
+ *
+ * Смените значение каждой константы на уникальную фразу.
+ * Можно сгенерировать их с помощью {@link https://api.wordpress.org/secret-key/1.1/salt/ сервиса ключей на WordPress.org}
+ * Можно изменить их, чтобы сделать существующие файлы cookies недействительными. Пользователям потребуется авторизоваться снова.
+ *
+ * @since 2.6.0
+ */
+define( 'AUTH_KEY',         ',jI%/qaWhi{v&<ZW/~kX&hk)E}V!YMwo7*lyh=fg>-zh^` +V&Sf|r[sZw,7i!,i' );
+
+define( 'SECURE_AUTH_KEY',  '[Z.FXWk.CQ]x{}m>b.)cHS1raIun$Q%tg=D3<}nsfqd#YJa;I4WS!0>:LH_E,nbF' );
+
+define( 'LOGGED_IN_KEY',    '{Cq9cXBgtmRh7mYm6^doG!EgfxJ@~6p>2ZSM@HE-Hp|ogBh#7)y*vHZ~+h(43s1q' );
+
+define( 'NONCE_KEY',        'gip:_va9UiY _~9%*{=S79<xy?9[)K55JN,;~;|{OhS<D-[;J/KsPp+x]Y8=!fVr' );
+
+define( 'AUTH_SALT',        'A`[$-&}u6E%Yh_p8b#dehQL@e)q@,p$2`3EbYePK~ H#4hULsIgWP4jquD{5^jx-' );
+
+define( 'SECURE_AUTH_SALT', 'Gc>r@1T[wFQ-5ZMn`QuS|szk+s!{Zia)<+rJSS0BW@2>t ;a/D)^^3;Tc2l-^spI' );
+
+define( 'LOGGED_IN_SALT',   'WG^iC[>YA(A{XR} GyM-~%Zn@;}Q#X_C4=p$mKhsTqXw<dcC$A/f*{wos<);C2A)' );
+
+define( 'NONCE_SALT',       'R]QXSF}51MF;xnh=I%)WA[SrM`=MO~QxC-s1}hj*sNe.S#In3O8F<_kxggW%~2fA' );
+
+
+/**#@-*/
+
+/**
+ * Префикс таблиц в базе данных WordPress.
+ *
+ * Можно установить несколько сайтов в одну базу данных, если использовать
+ * разные префиксы. Пожалуйста, указывайте только цифры, буквы и знак подчеркивания.
+ */
+$table_prefix = 'wp_';
+
+
+/**
+ * Для разработчиков: Режим отладки WordPress.
+ *
+ * Измените это значение на true, чтобы включить отображение уведомлений при разработке.
+ * Разработчикам плагинов и тем настоятельно рекомендуется использовать WP_DEBUG
+ * в своём рабочем окружении.
+ *
+ * Информацию о других отладочных константах можно найти в Кодексе.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
+ */
+define( 'WP_DEBUG', false );
+
+/* Это всё, дальше не редактируем. Успехов! */
+
+/** Абсолютный путь к директории WordPress. */
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+}
+
+/** Инициализирует переменные WordPress и подключает файлы. */
+require_once( ABSPATH . 'wp-settings.php' );
