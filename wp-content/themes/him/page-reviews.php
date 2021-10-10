@@ -11,30 +11,12 @@
             <h1 style="margin-bottom: 34px;">Отзывы</h1>
             <div class=""><!--s7_items-->
                 <?php
-                /*$pagedVideo = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-                $pagedText = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;*/
                 $argsVideo = array(
                     'posts_per_page' => 2,
                     'category_name' => 'video-otzyvy',
                     'post_type' => 'reviews',
-                    /*'meta_query' => array(
-                        array(
-                            'key'   => 'otz_video_true',
-                            'value' => '1',
-                        )
-                    ),*/
-                    /*'paged' => $pagedVideo*/
                 );
                 $queryVideo = new WP_Query( $argsVideo );
-
-                /*$argsText = array(
-                    'posts_per_page' => 2,
-                    'category_name' => 'tekstovye-otzyvy',
-                    'post_type' => 'reviews',
-                    'paged' => $pagedText
-                );
-                $queryText = new WP_Query( $argsText );*/
-
                 ?>
                 <ul class="tabs">
                     <li class="tab-link current" data-tab="tab-1">Видео отзывы</li>
@@ -126,32 +108,13 @@
                         <a href="#modal_order" class="to_calc open_modal btn_click_custom"><span class="to_calc_inner">Оставить заявку</span></a>
                     </div>
                 </div>
-
-
-                <?php /*while ( have_posts() ) : the_post();
-$otz_link = get_field('otz_link');
- */ ?><!--
-                <div class="s7_item" data-id="<?php /*echo get_the_ID(); */ ?>" style="background: url(<?php /*the_post_thumbnail_url('full'); */ ?>);">
-<?php /*
-if( !empty($otz_link) ): */ ?>
-                    <a href="<?php /*echo $otz_link; */ ?>" class="s7_item_btn" data-fancybox="gallery_opin">
-                        <div class="s7_item_btn_play">
-                            <img class="img_svg" src="/wp-content/themes/him/img/play2.svg" alt="play">
-                        </div>
-                    </a>
-<?php /*else: */ ?>
-<a href="<?php /*the_post_thumbnail_url('full'); */ ?>" class="s7_item_btn" data-fancybox="gallery_opin">
-                    </a>
-<?php /*endif; */ ?>
-                </div>
---><?php /*endwhile; wp_reset_postdata(); */ ?>
             </div>
         </div>
     </div>
     <div class="s10 section">
         <div class="wrapper">
             <img class="sh10" src="/wp-content/themes/him/img/s10_img.png" alt="sheet">
-            <h2 class="title"><?php the_field('bottom_desc_title', 'option'); ?></h2>
+            <h2 class="title">Химчистка мебели и ковров</h2>
             <div class="s10_content" style="text-align: center;">
                 <?php the_field('bottom_desc_text', 'option'); ?>
             </div>

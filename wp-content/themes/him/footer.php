@@ -231,8 +231,28 @@ if( !empty($logo) ): ?>
 								<div class="mcw_item">
 									<div class="mcw_title"><?php echo mb_strtoupper( $key, 'utf-8' ); ?></div>
 									<ul>
+                                        <?php
+                                            $baseDomain = "https://" . $_SERVER['HTTP_HOST'];
+                                            $actualSessionLink = "https://" . $_SERVER['HTTP_HOST'].$_SESSION['urlCurrentSite'];
+                                            if (get_site_url() == 'https://reflection-web.ru/' ||
+                                                get_site_url() == 'https://himchistka-kaplya.ru/') {
+                                                $getSiteUrls = get_site_url();
+                                            } else {
+                                                $getSiteUrls = get_site_url() . '/';
+                                            }
+                                        ?>
 										<?php foreach ($blog_items as $blog) { ?>
-											<li<?php if(get_current_blog_id() == $blog['blog_id']) { echo ' class="active"'; } ?>><a href="<?php echo $blog['blog_path']; ?>" data-site="<?=$blog['blog_id'];?>"><?php echo $blog['blog_city']; ?></a></li>
+                                            <?php
+                                            $actual_links = $baseDomain . $blog['blog_path'];
+                                            ?>
+                                                <?php
+                                                if($actual_links != $getSiteUrls && $actual_links == $actualSessionLink && get_current_blog_id() != $blog['blog_id']):?>
+                                                    <li class="active"><a href="<?php echo $blog['blog_path']; ?>" data-site="<?=$blog['blog_id'];?>"><?php echo $blog['blog_city']; ?></a></li>
+                                               <?php elseif($actual_links == $getSiteUrls && $actual_links == $actualSessionLink && get_current_blog_id() == $blog['blog_id']):?>
+                                                    <li class="active"><a href="<?php echo $blog['blog_path']; ?>" data-site="<?=$blog['blog_id'];?>"><?php echo $blog['blog_city']; ?></a></li>
+                                                <?php else: ?>
+                                                    <li><a href="<?php echo $blog['blog_path']; ?>" data-site="<?=$blog['blog_id'];?>"><?php echo $blog['blog_city']; ?></a></li>
+                                                <?php endif; ?>
 										<?php } ?>
 									</ul>
 								</div>

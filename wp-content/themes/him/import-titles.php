@@ -25,7 +25,6 @@
         $fc = mb_strtolower(mb_substr($str, 0, 1, $e), $e);
         return $fc.mb_substr($str, 1, mb_strlen($str, $e), $e);
     }
-
     /*if ($_REQUEST['file_name']) {
         class CSV {
             private $_csv_file = null;

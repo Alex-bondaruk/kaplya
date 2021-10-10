@@ -26,7 +26,15 @@ $sitesBlogIds = [];
 foreach ($sites as $site) {
     $sitesBlogIds[] = $site->blog_id;
 }
+function convert_yoast_title ($post_id) {
+    $string =  WPSEO_Meta::get_value( 'title', $post_id );
+    if ($string !== '') {
+        $replacer = new WPSEO_Replace_Vars();
 
+        return $replacer->replace( $string, get_post($post_id) );
+    }
+    return ''; // if not found - returns empty string
+}
 $pagesArr = [];
 foreach ($sitesBlogIds as $blogId) {
     switch_to_blog($blogId);
@@ -44,9 +52,10 @@ foreach ($sitesBlogIds as $blogId) {
         $pagesArr[$key . '_' . $blogId]['site_url'] = $detailCurrentBlog->domain . $detailCurrentBlog->path;
         $pagesArr[$key . '_' . $blogId]['site_id'] = $blogId;
         $pagesArr[$key . '_' . $blogId]['id'] = $post->ID;
-        $pagesArr[$key . '_' . $blogId]['name'] = iconv("utf-8", "windows-1251", $post->post_title);
+        $pagesArr[$key . '_' . $blogId]['name'] = get_the_title($post->ID);
         $pagesArr[$key . '_' . $blogId]['url'] = iconv("utf-8", "windows-1251", $post->post_name);
-        $pagesArr[$key . '_' . $blogId]['title'] = iconv("utf-8", "windows-1251", YoastSEO()->meta->for_post($post->ID)->title);
+        //$pagesArr[$key . '_' . $blogId]['title'] = iconv("utf-8", "windows-1251", YoastSEO()->meta->for_post($post->ID)->title);
+        $pagesArr[$key . '_' . $blogId]['title'] = iconv("utf-8", "windows-1251",convert_yoast_title($post->ID));
     }
     restore_current_blog();
 }

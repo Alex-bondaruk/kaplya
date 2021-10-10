@@ -6,7 +6,9 @@ function start_session()
 {
     if (!session_id()) {
         session_start();
-        if (empty($_SESSION['curIdSite'])) {
+        $actual_link = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        $getSiteUrl = get_site_url() . '/';
+        if (empty($_SESSION['curIdSite']) ) {//|| $getSiteUrl == $actual_link
             $getBlogDetail = get_blog_details(get_current_blog_id());
             $_SESSION['curIdSite'] = $getBlogDetail->blog_id;
             $_SESSION['currentActiveSity'] = $getBlogDetail->blogname;
@@ -666,15 +668,28 @@ class macho_bootstrap_walker extends Walker_Nav_Menu
                     }
                     $implodePathUrl = implode('/', $explodePathUrlNew);
                     $fullimplodeUrl = $parseUrl['scheme'] . '://' . $parseUrl['host'] . $implodePathUrl;
+                    $pathDomainWithoutSlash = substr($_SESSION['urlCurrentSite'],0,-1);
+                    $fullimplodeUrlOther = get_site_url() . $pathDomainWithoutSlash . $parseUrl['path'];
                     if ($_SESSION['urlCurrentSite'] == '/') {
                         $atts['href'] = $item->url;
                     } else {
-                        $atts['href'] = $fullimplodeUrl;
+                        $actual_link = "https://" . $_SERVER['HTTP_HOST'].$_SESSION['urlCurrentSite'];
+                        if(get_site_url() == 'https://reflection-web.ru/' ||
+                            get_site_url() == 'https://himchistka-kaplya.ru/'){
+                            $getSiteUrl = get_site_url();
+                        } else {
+                            $getSiteUrl = get_site_url() .'/';
+                        }
+
+                        if($actual_link != $getSiteUrl) {
+                            $atts['href'] = $fullimplodeUrlOther;
+                        } else {
+                            $atts['href'] = $fullimplodeUrl;
+                        }
                     }
-                    //echo '<pre>';print_r($fullimplodeUrl);echo'</pre>';
                 } else {
                     if ($_SESSION['urlCurrentSite'] == '/') {
-                        $baseUrlSitePages = str_replace($_SESSION['urlCurrentSite'], '', $item->url);
+                        $baseUrlSitePages = $item->url;
                     } else {
                         $baseUrlSitePages = str_replace($_SESSION['urlCurrentSite'], '/', $item->url);
                     }
@@ -701,12 +716,25 @@ class macho_bootstrap_walker extends Walker_Nav_Menu
                     }
                     $implodePathUrl = implode('/', $explodePathUrlNew);
                     $fullimplodeUrl = $parseUrl['scheme'] . '://' . $parseUrl['host'] . $implodePathUrl;
+                    $pathDomainWithoutSlash = substr($_SESSION['urlCurrentSite'],0,-1);
+                    $fullimplodeUrlOther = $parseUrl['scheme'] . '://' . $parseUrl['host'] . $pathDomainWithoutSlash . $parseUrl['path'];
                     if ($_SESSION['urlCurrentSite'] == '/') {
                         $atts['href'] = $item->url;
                     } else {
-                        $atts['href'] = $fullimplodeUrl;
+                        $actual_link = "https://" . $_SERVER['HTTP_HOST'].$_SESSION['urlCurrentSite'];
+                        if(get_site_url() == 'https://reflection-web.ru/' ||
+                            get_site_url() == 'https://himchistka-kaplya.ru/'){
+                            $getSiteUrl = get_site_url();
+                        } else {
+                            $getSiteUrl = get_site_url() .'/';
+                        }
+
+                        if($actual_link != $getSiteUrl) {
+                            $atts['href'] = $fullimplodeUrlOther;
+                        } else {
+                            $atts['href'] = $fullimplodeUrl;
+                        }
                     }
-                    //echo '<pre>';print_r($fullimplodeUrl);echo'</pre>';
                 } else {
                     if ($_SESSION['urlCurrentSite'] == '/') {
                         $baseUrlSitePages = str_replace($_SESSION['urlCurrentSite'], '', $item->url);
@@ -718,7 +746,6 @@ class macho_bootstrap_walker extends Walker_Nav_Menu
                     } else {
                         $atts['href'] = !empty($baseUrlSitePages) ? $baseUrlSitePages : '';
                     }
-
                 }
                 //$atts['href'] = !empty($item->url) ? $item->url : '';
             }
